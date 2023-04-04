@@ -1,0 +1,28 @@
+.Media {
+    cursor: pointer;   /*manito*/
+    margin-right: 15px;   /*margen de la derecha*/
+    display: inline-block;  /*uno al lado del otro*/
+    width: 260px;  /*ancho del elemento*/
+    vertical-align: top; /*ajusta el tamaño del alto alineado*/
+}
+
+.Media-cover {
+    transition: .3s;
+    box-shadow: 0 0 5px rgba(0,0,0,3);
+    height: 160px;
+}
+
+.Media-image{
+    object-fit: cover;
+}
+
+.Media-title {
+    margin:5px 0 0 0;
+    color: #44546b;
+    white-space: normal;
+}
+
+.Media-author {
+    font-size: 12px;
+    margin: 5px 0 0 0;
+}
